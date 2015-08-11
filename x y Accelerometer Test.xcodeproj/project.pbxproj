@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53144D0C1ACE515A00FB78A1 /* SpaceshipNew.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 53144D0B1ACE515A00FB78A1 /* SpaceshipNew.bmp */; };
+		53144D0E1ACE519E00FB78A1 /* NewShip.png in Resources */ = {isa = PBXBuildFile; fileRef = 53144D0D1ACE519E00FB78A1 /* NewShip.png */; };
+		53144D101ACE526100FB78A1 /* Start Screen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53144D0F1ACE526100FB78A1 /* Start Screen.sks */; };
+		536F62451A93CCFE003B9200 /* stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 536F62441A93CCFE003B9200 /* stars.sks */; };
 		53BD30A11A7AD9700048A7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD30A01A7AD9700048A7A9 /* AppDelegate.swift */; };
 		53BD30A31A7AD9700048A7A9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30A21A7AD9700048A7A9 /* GameScene.sks */; };
 		53BD30A51A7AD9700048A7A9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD30A41A7AD9700048A7A9 /* GameScene.swift */; };
@@ -15,6 +19,20 @@
 		53BD30AC1A7AD9700048A7A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30AB1A7AD9700048A7A9 /* Images.xcassets */; };
 		53BD30AF1A7AD9700048A7A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30AD1A7AD9700048A7A9 /* LaunchScreen.xib */; };
 		53BD30BB1A7AD9700048A7A9 /* x_y_Accelerometer_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD30BA1A7AD9700048A7A9 /* x_y_Accelerometer_TestTests.swift */; };
+		53BD30CD1A7B44B60048A7A9 /* ButtonDownNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30C51A7B44B60048A7A9 /* ButtonDownNormal.png */; };
+		53BD30CE1A7B44B60048A7A9 /* ButtonDownRecessed.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30C61A7B44B60048A7A9 /* ButtonDownRecessed.png */; };
+		53BD30CF1A7B44B60048A7A9 /* buttonLeftNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30C71A7B44B60048A7A9 /* buttonLeftNormal.png */; };
+		53BD30D01A7B44B60048A7A9 /* buttonLeftRecessed.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30C81A7B44B60048A7A9 /* buttonLeftRecessed.png */; };
+		53BD30D11A7B44B60048A7A9 /* buttonUpNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30C91A7B44B60048A7A9 /* buttonUpNormal.png */; };
+		53BD30D21A7B44B60048A7A9 /* buttonUpRecessed.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30CA1A7B44B60048A7A9 /* buttonUpRecessed.png */; };
+		53BD30D31A7B44B60048A7A9 /* buttonRightNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30CB1A7B44B60048A7A9 /* buttonRightNormal.png */; };
+		53BD30D41A7B44B60048A7A9 /* buttonRightRecessed.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30CC1A7B44B60048A7A9 /* buttonRightRecessed.png */; };
+		53BD30D61A7C27670048A7A9 /* laser.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD30D51A7C27670048A7A9 /* laser.png */; };
+		53BD31101A80560B0048A7A9 /* ShipThrusters.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53BD310E1A80560B0048A7A9 /* ShipThrusters.sks */; };
+		53BD31111A80560B0048A7A9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD310F1A80560B0048A7A9 /* spark.png */; };
+		53BD31131A80A5CC0048A7A9 /* ShittyShip.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD31121A80A5CC0048A7A9 /* ShittyShip.png */; };
+		53BD31151A80A5D00048A7A9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 53BD31141A80A5D00048A7A9 /* background.png */; };
+		53E879CC1AEAD6E600AE67D9 /* 83560__nbs-dark__ship-fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53E879CB1AEAD6E600AE67D9 /* 83560__nbs-dark__ship-fire.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53144D0B1ACE515A00FB78A1 /* SpaceshipNew.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = SpaceshipNew.bmp; path = "../x y Accelerometer Test/SpaceshipNew.bmp"; sourceTree = "<group>"; };
+		53144D0D1ACE519E00FB78A1 /* NewShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewShip.png; path = "../x y Accelerometer Test/NewShip.png"; sourceTree = "<group>"; };
+		53144D0F1ACE526100FB78A1 /* Start Screen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Start Screen.sks"; sourceTree = "<group>"; };
+		536F62441A93CCFE003B9200 /* stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = stars.sks; sourceTree = "<group>"; };
 		53BD309B1A7AD9700048A7A9 /* x y Accelerometer Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "x y Accelerometer Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BD309F1A7AD9700048A7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53BD30A01A7AD9700048A7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +62,20 @@
 		53BD30B41A7AD9700048A7A9 /* x y Accelerometer TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "x y Accelerometer TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BD30B91A7AD9700048A7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53BD30BA1A7AD9700048A7A9 /* x_y_Accelerometer_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_y_Accelerometer_TestTests.swift; sourceTree = "<group>"; };
+		53BD30C51A7B44B60048A7A9 /* ButtonDownNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonDownNormal.png; sourceTree = "<group>"; };
+		53BD30C61A7B44B60048A7A9 /* ButtonDownRecessed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonDownRecessed.png; sourceTree = "<group>"; };
+		53BD30C71A7B44B60048A7A9 /* buttonLeftNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLeftNormal.png; sourceTree = "<group>"; };
+		53BD30C81A7B44B60048A7A9 /* buttonLeftRecessed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLeftRecessed.png; sourceTree = "<group>"; };
+		53BD30C91A7B44B60048A7A9 /* buttonUpNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonUpNormal.png; sourceTree = "<group>"; };
+		53BD30CA1A7B44B60048A7A9 /* buttonUpRecessed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonUpRecessed.png; sourceTree = "<group>"; };
+		53BD30CB1A7B44B60048A7A9 /* buttonRightNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRightNormal.png; sourceTree = "<group>"; };
+		53BD30CC1A7B44B60048A7A9 /* buttonRightRecessed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRightRecessed.png; sourceTree = "<group>"; };
+		53BD30D51A7C27670048A7A9 /* laser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laser.png; sourceTree = "<group>"; };
+		53BD310E1A80560B0048A7A9 /* ShipThrusters.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShipThrusters.sks; sourceTree = "<group>"; };
+		53BD310F1A80560B0048A7A9 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		53BD31121A80A5CC0048A7A9 /* ShittyShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShittyShip.png; sourceTree = "<group>"; };
+		53BD31141A80A5D00048A7A9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		53E879CB1AEAD6E600AE67D9 /* 83560__nbs-dark__ship-fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "83560__nbs-dark__ship-fire.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +102,7 @@
 				53BD309D1A7AD9700048A7A9 /* x y Accelerometer Test */,
 				53BD30B71A7AD9700048A7A9 /* x y Accelerometer TestTests */,
 				53BD309C1A7AD9700048A7A9 /* Products */,
+				53BD30C41A7B44B60048A7A9 /* Star Balster Assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +121,11 @@
 				53BD30A01A7AD9700048A7A9 /* AppDelegate.swift */,
 				53BD30A21A7AD9700048A7A9 /* GameScene.sks */,
 				53BD30A41A7AD9700048A7A9 /* GameScene.swift */,
+				53144D0F1ACE526100FB78A1 /* Start Screen.sks */,
+				53BD310E1A80560B0048A7A9 /* ShipThrusters.sks */,
+				536F62441A93CCFE003B9200 /* stars.sks */,
+				53E879CB1AEAD6E600AE67D9 /* 83560__nbs-dark__ship-fire.wav */,
+				53BD310F1A80560B0048A7A9 /* spark.png */,
 				53BD30A61A7AD9700048A7A9 /* GameViewController.swift */,
 				53BD30A81A7AD9700048A7A9 /* Main.storyboard */,
 				53BD30AB1A7AD9700048A7A9 /* Images.xcassets */,
@@ -116,6 +158,26 @@
 				53BD30B91A7AD9700048A7A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53BD30C41A7B44B60048A7A9 /* Star Balster Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53144D0D1ACE519E00FB78A1 /* NewShip.png */,
+				53144D0B1ACE515A00FB78A1 /* SpaceshipNew.bmp */,
+				53BD31141A80A5D00048A7A9 /* background.png */,
+				53BD31121A80A5CC0048A7A9 /* ShittyShip.png */,
+				53BD30C51A7B44B60048A7A9 /* ButtonDownNormal.png */,
+				53BD30D51A7C27670048A7A9 /* laser.png */,
+				53BD30C61A7B44B60048A7A9 /* ButtonDownRecessed.png */,
+				53BD30C71A7B44B60048A7A9 /* buttonLeftNormal.png */,
+				53BD30C81A7B44B60048A7A9 /* buttonLeftRecessed.png */,
+				53BD30C91A7B44B60048A7A9 /* buttonUpNormal.png */,
+				53BD30CA1A7B44B60048A7A9 /* buttonUpRecessed.png */,
+				53BD30CB1A7B44B60048A7A9 /* buttonRightNormal.png */,
+				53BD30CC1A7B44B60048A7A9 /* buttonRightRecessed.png */,
+			);
+			path = "Star Balster Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +260,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53BD30D11A7B44B60048A7A9 /* buttonUpNormal.png in Resources */,
+				536F62451A93CCFE003B9200 /* stars.sks in Resources */,
+				53BD30D41A7B44B60048A7A9 /* buttonRightRecessed.png in Resources */,
+				53BD31151A80A5D00048A7A9 /* background.png in Resources */,
 				53BD30AF1A7AD9700048A7A9 /* LaunchScreen.xib in Resources */,
+				53E879CC1AEAD6E600AE67D9 /* 83560__nbs-dark__ship-fire.wav in Resources */,
+				53BD30CF1A7B44B60048A7A9 /* buttonLeftNormal.png in Resources */,
+				53144D0C1ACE515A00FB78A1 /* SpaceshipNew.bmp in Resources */,
+				53BD30CE1A7B44B60048A7A9 /* ButtonDownRecessed.png in Resources */,
+				53BD30D21A7B44B60048A7A9 /* buttonUpRecessed.png in Resources */,
+				53144D101ACE526100FB78A1 /* Start Screen.sks in Resources */,
+				53BD31101A80560B0048A7A9 /* ShipThrusters.sks in Resources */,
+				53BD30D61A7C27670048A7A9 /* laser.png in Resources */,
 				53BD30AC1A7AD9700048A7A9 /* Images.xcassets in Resources */,
 				53BD30A31A7AD9700048A7A9 /* GameScene.sks in Resources */,
+				53BD31131A80A5CC0048A7A9 /* ShittyShip.png in Resources */,
+				53BD31111A80560B0048A7A9 /* spark.png in Resources */,
+				53BD30D31A7B44B60048A7A9 /* buttonRightNormal.png in Resources */,
+				53BD30CD1A7B44B60048A7A9 /* ButtonDownNormal.png in Resources */,
+				53BD30D01A7B44B60048A7A9 /* buttonLeftRecessed.png in Resources */,
 				53BD30AA1A7AD9700048A7A9 /* Main.storyboard in Resources */,
+				53144D0E1ACE519E00FB78A1 /* NewShip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +493,7 @@
 				53BD30C01A7AD9700048A7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BD30C11A7AD9700048A7A9 /* Build configuration list for PBXNativeTarget "x y Accelerometer TestTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +502,7 @@
 				53BD30C31A7AD9700048A7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
